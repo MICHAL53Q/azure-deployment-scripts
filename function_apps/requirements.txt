@@ -1,0 +1,6 @@
+xmltodict
+
+# Azure SDKs
+azure-identity
+azure-mgmt-resource 
+azure-mgmt-web

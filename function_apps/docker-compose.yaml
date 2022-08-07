@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    container_name: deploy-function_apps
+    build: .
+    volumes: 
+      - .:/usr/src/app
+    # --- uncomment below for run inactive ---
+    stdin_open: true
+    tty: true
+    command: /bin/sh
